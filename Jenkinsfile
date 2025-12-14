@@ -12,7 +12,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/votre-repo/docker-app.git'
+                git 'https://github.com/College-bdeb/docker-app.git'
             }
         }
 
