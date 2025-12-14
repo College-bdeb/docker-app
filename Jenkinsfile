@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USER = "votre_user"
+        DOCKERHUB_USER = "oussamaderbel"
         DOCKERHUB_REPO = "jenkins-ci-demo"
         APP_VERSION = "1.0.${BUILD_NUMBER}"
         DOCKERHUB_TOKEN = credentials('dockerhub-token')
